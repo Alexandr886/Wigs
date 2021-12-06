@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="fonts/CircularStdRegular.woff2">
+   <link rel="shortcut icon" href="img/" type="image/x-icon">
+   <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
+   <title>Wigs</title>
+</head>
+<body>
+   <main>
+      <div class="container">
+         <header class="header">
+            <div class="logo">
+               <a href="#" class="logo__link">
+                  <img src="img/logo.svg" alt="Logo" class="logo__img">
+               </a>
+            </div>
+            <div class="search">
+               <button type="submit" class="search__btn">
+                  <img src="img/icon-searh.svg" alt="Search button">
+               </button>
+               <input type="search" placeholder="Search store" class="search__input">
+            </div>
+            <div class="nav-login">
+               <nav class="nav">
+                  <a href="#" class="nav__link nav__link_active">products</a>
+                  <a href="#" class="nav__link">story</a>
+                  <a href="#" class="nav__link">manufacturing</a>
+                  <a href="#" class="nav__link">packaging</a>
+               </nav>
+               <div class="login">
+                  <a href="#" class="login__link login__link_basket">
+                     <img src="img/icon-basket.svg" alt="">
+                  </a>
+                  <a href="#" class="login__link">
+                     <img src="img/icon-login.svg" alt="">
+                  </a>
+               </div>
+               <!--------------Бургер-меню------------------>
+               <div class="burger-menu">
+                  <button type="button" data-modal-target="#modal" class="burger">
+                     <span class="burger__line"></span>
+                     <span class="burger__line"></span>
+                     <span class="burger__line"></span>
+                  </button>
+                  <div class="modal" id="modal">
+                     <button data-close-button class="close-button">&times;</button>
+                     <nav class="nav-burger">
+                        <a href="#" class="nav__link nav__link_active">products</a>
+                        <a href="#" class="nav__link">story</a>
+                        <a href="#" class="nav__link">manufacturing</a>
+                        <a href="#" class="nav__link">packaging</a>
+                     </nav>
+                     <div class="search-burger">
+                        <button type="submit" class="search__btn">
+                           <img src="img/icon-searh.svg" alt="Search button">
+                        </button>
+                        <input type="search" placeholder="Search store" class="search__input">
+                     </div>
+                  </div>
+                  <div id="overlay"></div>
+               </div>
+               <!--------------Бургер-меню конец------------------>
+            </div>
+         </header>
+         <section class="shop">
+            <div class="sidebar">
+               <h1 class="sidebar__title">Explore</h1>
+               <div class="sidebar-nav">
+                  <div class="paragraph">
+                     <div class="paragraph-bg">
+                        <img src="img/icon/01.svg" alt="" class="paragraph-bg__img">
+                     </div>
+                     <a href="" class="paragraph__link">New In</a>
+                  </div>
+                  <div class="paragraph">
+                     <div class="paragraph-bg">
+                        <img src="img/icon/02.svg" alt="" class="paragraph-bg__img">
+                     </div>
+                     <a href="" class="paragraph__link">Clothing</a>
+                  </div>
+                  <div class="paragraph">
+                     <div class="paragraph-bg">
+                        <img src="img/icon/03.svg" alt="" class="paragraph-bg__img">
+                     </div>
+                     <a href="" class="paragraph__link">Shoes</a>
+                  </div>
+                  <div class="paragraph">
+                     <div class="paragraph-bg">
+                        <img src="img/icon/04.svg" alt="" class="paragraph-bg__img">
+                     </div>
+                     <a href="" class="paragraph__link">Accessories</a>
+                  </div>
+                  <div class="paragraph">
+                     <div class="paragraph-bg">
+                        <img src="img/icon/05.svg" alt="" class="paragraph-bg__img">
+                     </div>
+                     <a href="" class="paragraph__link">Activewear</a>
+                  </div>
+                  <div class="paragraph">
+                     <div class="paragraph-bg">
+                        <img src="img/icon/06.svg" alt="" class="paragraph-bg__img">
+                     </div>
+                     <a href="" class="paragraph__link">Gifts & Living</a>
+                  </div>
+                  <div class="paragraph">
+                     <div class="paragraph-bg">
+                        <img src="img/icon/07.svg" alt="" class="paragraph-bg__img">
+                     </div>
+                     <a href="" class="paragraph__link">Inspiration</a>
+                  </div>
+                  <div class="paragraph paragraph-bottom">
+                     <div class="paragraph-bg paragraph-bg-bottom">
+                        <img src="img/icon/08.svg" alt="" class="paragraph-bg__img">
+                     </div>
+                     <a href="" class="paragraph__link">Help Center</a>
+                  </div>
+               </div>
+            </div>
+            <a href="#" class="product horizontal-1">
+               <h1 class="product__title">GET UP TO 50% OFF</h1>
+            </a>
+            <a href="#" class="product horizontal-2"></a>
+            <a href="#" class="product horizontal-3">
+               <h2 class="product__subtitle">Trending & Hot</h2>
+               <p class="product__text">A collection of most trending items.</p>
+            </a>
+            <a href="#" class="product horizontal-4">
+               <h2 class="product__subtitle product__subtitle_red">Buy it for the first time</h2>
+               <p class="product__text">New in store. Try it before anyone else.</p>
+            </a>
+            <a href="##" class="product vertical-1">
+               <div class="like"></div>
+            </a>
+            <a href="##" class="product vertical-2">
+               <div class="like"></div>
+            </a>
+            <a href="##" class="product vertical-3">
+               <div class="like"></div>
+            </a>
+            <a href="##" class="product vertical-4">
+               <div class="like"></div>
+            </a>
+         </section>
+      </div>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
