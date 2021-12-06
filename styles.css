@@ -3,21 +3,21 @@
    font-family: 'CircularStdRegular';
    font-weight: 400;
    font-style: normal;
-   src: url(/fonts/CircularStdRegular.woff2);
+   src: url(fonts/CircularStdRegular.woff2);
 }
 
 @font-face {
    font-family: 'SofiaPro';
    font-weight: 400;
    font-style: normal;
-   src: url(/fonts/SofiaProRegular.woff2);
+   src: url(fonts/SofiaProRegular.woff2);
 }
 
 @font-face {
    font-family: 'SofiaPro';
    font-weight: 800;
    font-style: normal;
-   src: url(/fonts/SofiaProBold.woff2);
+   src: url(fonts/SofiaProBold.woff2);
 }
 
 
@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-   padding: 46px 52px 46px 54px;
+   padding: 46px 52px 15px 54px;
    box-sizing: border-box;
    height: 100vh;
 }
@@ -137,7 +137,7 @@ body {
  }
 
 .shop {
-   height: 90%;
+   height: 84.5%;
    display: grid;
    grid-template-columns: 0.83fr 1fr 1fr 1fr 1fr;
    grid-template-rows: repeat(4, 1fr);
@@ -168,6 +168,7 @@ body {
 }
 
 .paragraph__link {
+   color: #000000;
    transition: 0.3s ease opacity;
 }
 
