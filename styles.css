@@ -307,12 +307,16 @@ body {
 }
 
 .like {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 38px;
+   height: 38px;
    position: absolute;
    top: 20px;
    right: 20px;
    background-color: #FFF;
    border-radius: 100%;
-   padding: 7px 8px;
    animation: shadow 2s infinite;
 }
 
