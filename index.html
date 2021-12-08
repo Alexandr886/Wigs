@@ -23,7 +23,7 @@
                <button type="submit" class="search__btn">
                   <img src="img/icon-searh.svg" alt="Search button">
                </button>
-               <input type="search" placeholder="Search store" class="search__input">
+               <input placeholder="Search store" class="search__input">
             </div>
             <div class="nav-login">
                <nav class="nav">
@@ -133,17 +133,40 @@
                <h2 class="product__subtitle product__subtitle_red">Buy it for the first time</h2>
                <p class="product__text">New in store. Try it before anyone else.</p>
             </a>
+            <!-- общее сердечко, которое изначально скрыто -->
+            <div class='heart-svg'>
+               <svg viewBox="0 0 13.066 13.066" id='heart'>
+                 <path d="M6.555 12.558a.41.41 0 0 1-.273-.103C6.049 12.255.564 7.501.083 4.57-.133 3.243.071 2.201.69 1.474 1.22.85 2.034.507 2.982.507c.082 0 .165.002.247.008.058-.003.115-.004.172-.004 1.048 0 2.343.461 3.109 2.421C6.94 1.736 7.821.515 9.838.515c1.135 0 2.023.342 2.571.987.597.701.787 1.733.569 3.068-.479 2.929-5.918 7.684-6.149 7.884a.408.408 0 0 1-.274.104z"/>
+               </svg>
+             </div>
+             <!-- общее сердечко конец---------------------->
             <a href="##" class="product vertical-1">
-               <div class="like"></div>
+               <div class="like">
+                  <svg class="like__heart">
+                     <use xlink:href="#heart"></use>
+                  </svg>
+               </div>
             </a>
             <a href="##" class="product vertical-2">
-               <div class="like"></div>
+               <div class="like">
+                  <svg class="like__heart">
+                     <use xlink:href="#heart"></use>
+                  </svg>
+               </div>
             </a>
             <a href="##" class="product vertical-3">
-               <div class="like"></div>
+               <div class="like">
+                  <svg class="like__heart">
+                     <use xlink:href="#heart"></use>
+                  </svg>
+               </div>
             </a>
             <a href="##" class="product vertical-4">
-               <div class="like"></div>
+               <div class="like">
+                  <svg class="like__heart">
+                     <use xlink:href="#heart"></use>
+                  </svg>
+               </div>
             </a>
          </section>
       </div>
