@@ -78,6 +78,10 @@ body {
    font-size: 17px;
 }
 
+.search__input:focus {
+   outline: none;
+}
+
 .search__input::placeholder {
    font-family: 'CircularStdRegular';
    font-size: 17px;
@@ -164,12 +168,14 @@ body {
 .paragraph {
    display: flex;
    justify-content: flex-start;
+   align-items: center;
    margin-bottom: 27px;
 }
 
 .paragraph__link {
    color: #000000;
    transition: 0.3s ease opacity;
+   font-size: 16px;
 }
 
 .paragraph__link:hover {
@@ -177,14 +183,19 @@ body {
 }  
 
 .paragraph-bg {
-   width: 22px;
-   height: 22px;
+   display: flex;
    margin-right: 12px;
+}
+
+.paragraph-bg__img {
+   width: 100%;
+   height: 100%;
+   background-position: center;
 }
 
 .paragraph-bottom {
    position: absolute;
-   bottom: -11px;
+   bottom: -3px;
    margin-bottom: 0;
    align-items: center;
 }
@@ -291,18 +302,25 @@ body {
    color: #000;
 }
 
+.heart-svg {
+   display: none;
+}
+
 .like {
    position: absolute;
-   top: 19px;
-   right: 19px;
+   top: 20px;
+   right: 20px;
    background-color: #FFF;
    border-radius: 100%;
-   padding: 20px;
-   background-image: url(img/heart.svg);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: 45%;
+   padding: 7px 8px;
    animation: shadow 2s infinite;
+}
+
+.like__heart {
+   width: 20px;
+   height: 13px;
+   stroke: #000;
+   fill: #fff;
 }
 
 @keyframes shadow {
